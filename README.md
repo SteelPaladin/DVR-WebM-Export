@@ -1,8 +1,7 @@
 # WebM Alpha for DaVinci Resolve Studio
 
-Renders **transparent VP9 WebM** straight from the Deliver page. There's no ProRes
-intermediate: Resolve hands frames to the plugin, which encodes them and writes
-the `.webm` itself.
+Renders **transparent VP9 WebM** straight from the Deliver page. Resolve hands frames to the plugin, which encodes them and writes
+the `.webm` itself. Designed to get keyed footage out of Resolve to be used as mesh planes in Blender with out having to use large ProRes files. Transparent WebM files are on average **99.5% smaller** than transparent ProRes alternatives.
 
 It adds two things to Resolve:
 
